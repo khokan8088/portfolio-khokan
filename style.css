@@ -1,0 +1,836 @@
+/* ======= Start Google fonts =======*/
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+/* =======  End Google fonts =======*/
+
+
+
+
+/*===============================
+		Start Typography Part
+===============================*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:sans-serif;
+}
+a{
+	text-decoration:none;
+	transition:all 0.5s ease;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+ul{
+	list-style:none;
+}
+.container{
+	max-width:960px;
+	width:96%;
+	padding:20px 2%;
+	margin:0 auto;
+}
+/*===============================
+		End Typography Part
+===============================*/
+
+
+
+
+/*===============================
+		Start Typography Part
+===============================*/
+#header-area{
+	width:100%;
+	padding:10px 0;
+}
+#header-area .inner-header{
+	overflow:hidden;
+}
+#header-area .inner-header .logo{
+	max-width:150px;
+	width:15%;
+	float:left;
+}
+#header-area .inner-header .logo a{
+	font-family: 'Great Vibes', cursive;
+	font-size:40px;
+	font-weight:bold;
+	color:#000;
+}
+#header-area .inner-header .menu{
+	max-width:810px;
+	width:85%;
+	float:right;
+	text-align:right;
+	padding: 14px 0;
+}
+#header-area .inner-header .menu nav ul li{
+	display:inline-block;
+	padding-left:3%;
+}
+#header-area .inner-header .menu nav ul li:first-child{
+	padding-left:0;
+}
+#header-area .inner-header .menu nav ul li a{
+	font-size:14px;
+	font-weight:bold;
+	color:#000;
+}
+#header-area .inner-header .menu nav ul li a:hover{
+	color:purple;
+	text-decoration:underline;
+}
+#header-area .inner-header .menu nav ul li a.active{
+	color:indigo;
+	text-decoration:underline;
+}
+#header-area .inner-header .menu ul li:last-child a{
+	padding:7px;
+	background:#000;
+	color:#fff;
+	border-radius:25px;
+}
+#header-area .inner-header .menu ul li:last-child a:hover{
+	color:#fff;
+}
+#header-area .inner-header #mobile-menu{
+	float:right;
+}
+
+/*===============================
+		End Typography Part
+===============================*/
+
+
+
+
+/*===============================
+		Start Banner Part
+===============================*/
+
+#banner-area{
+	width:100%;
+	padding:20px 0;
+}
+#banner-area .inner-banner{
+	overflow:hidden;
+}
+#banner-area .inner-banner .child-banner{
+	padding:20px 0;
+	max-width:480px;
+	width:50%;
+	float:left;
+}
+#banner-area .inner-banner .child-banner:first-child{
+	padding:80px 0;
+	box-sizing:border-box;
+}
+#banner-area .inner-banner .child-banner h3{
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 0;
+	color:#482264;
+}
+#banner-area .inner-banner .child-banner h3.margin{
+	padding:10px 0 30px;
+}
+#banner-area .inner-banner .child-banner h2{
+	font-size:40px;
+	font-weight:909;
+	color:#000;
+}
+#banner-area .inner-banner .child-banner a{
+	background:#000;
+	padding:10px 30px;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	border-radius:4px;
+}
+#banner-area .inner-banner .child-banner a:hover{
+	text-decoration:underline;
+}
+#banner-area .inner-banner .child-banner:last-child{
+	text-align:center;
+	background:#fff;
+	border-radius:100%;
+}
+#banner-area .inner-banner .child-banner:last-child img{
+	width:300px;
+	border-radius:10px 60px 20px 60px;
+}
+/*===============================
+		End Banner Part
+===============================*/
+
+
+
+
+/*===============================
+		Start Hero Part
+===============================*/
+
+#hero-area{
+	width:100%;
+	padding:0 0;
+	background:#171717;
+}
+#hero-area svg{
+	display:block;	
+}
+.svg-upper{
+	background:#fff;
+}
+.svg-upper svg{
+	display:block;
+}
+#hero-area .inner-hero{
+	overflow:hidden;
+	max-width:800px;
+	width:96%;
+	padding:40px 2% 0;
+	margin:0 auto;
+}
+#hero-area .inner-hero .child-hero{
+	max-width:218px;
+	width:27.25%;
+	padding:20px 2%;
+	margin-right:3.125%;
+	float:left;
+	color:#333;
+	background:#fff;
+	border-radius:5px;
+	transition:all 0.5s ease;
+}
+#hero-area .inner-hero .child-hero:hover{
+	background:#313131;
+	color:#fff;
+}
+#hero-area .inner-hero .active{
+	color:#fff;
+	background:#313131;
+}
+#hero-area .inner-hero .child-hero:last-child{
+	margin-right:0;
+}
+#hero-area .inner-hero .child-hero h2{
+	font-size:22px;
+	padding:10px 0 15px;
+	margin-bottom:15px;
+	font-weight:bold;
+	border-bottom:2px solid #aaa;
+}
+#hero-area .inner-hero .child-hero p{
+	font-family: 'Satisfy', cursive;
+	font-size:14px;
+	line-height:1.4em;
+}
+#hero-area .inner-hero .child-hero .sub-hero i{
+	float:left;
+	padding:15px 4% 15px 0;
+}
+#hero-area .inner-hero .child-hero .sub-hero{}
+/*===============================
+		End Hero Part
+===============================*/
+
+
+
+
+/*===============================
+		Start About Us Part
+===============================*/
+
+#about-us-area{
+	width:100%;
+	width:20px 0;
+}
+#about-us-area .inner-about{
+	overflow:hidden;
+	max-width:800px;
+	width:96%;
+	padding:40px 2%;
+	margin:0 auto;
+}
+#about-us-area .inner-about .heading{
+	text-align:center;
+	font-size:30px;
+	font-weight:701;
+	position:relative;
+	padding:30px 0;
+	margin:30px 0;
+	color:#000;
+}
+#about-us-area .inner-about .heading::after{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: indigo;
+	bottom: 15px;
+	left: calc(50% - 25px);
+}
+#about-us-area .inner-about .child-about{
+	max-width:380px;
+	width:47.5%;
+	margin-right:5%;
+	float:left;
+}
+#about-us-area .inner-about .child-about h3{
+	font-size:18px;
+	color:indigo;
+	font-weight:bold;
+	padding:15px 0;
+}
+#about-us-area .inner-about .child-about p{
+	font-size:16px;
+	color:#333;
+	padding-bottom:15px;
+	line-height:1.4em;
+}
+#about-us-area .inner-about .child-about a{
+	font-family: 'Great Vibes', cursive;
+	font-size:18px;
+	color:indigo;
+	text-decoration:underline;
+}
+#about-us-area .inner-about .child-about:last-child{
+	margin-right:0;
+	
+}
+#about-us-area .inner-about .child-about .sub-about .progress-text{
+	width:100%;
+	overflow:hidden;
+}
+#about-us-area .inner-about .child-about .sub-about .progress-text h2{
+	font-size:13px;
+	color:#333;
+	float:left;
+	width:50%;
+	font-weight:bold;
+}
+#about-us-area .inner-about .child-about .sub-about .progress-text p{
+	font-size:13px;
+	color:#aaa;
+	text-align:right;
+	float:right;
+	width:50%;
+}
+#about-us-area .inner-about .child-about .sub-about .progress-bar{
+	margin:0 0 30px;
+}
+#about-us-area .inner-about .child-about .sub-about .progress-bar .bar{
+	overflow:hidden;
+	display:block;
+	background:#e8d1a7;
+	height:3px;
+}
+#about-us-area .inner-about .child-about .sub-about .progress-bar .bar span{
+	background:indigo;
+	height:3px;
+	float:left;
+}
+#about-us-area .inner-about .child-about .sub-about .progress-bar .bar .Architecture{
+	width:90%;
+	animation: Architecture 3s;
+}
+@keyframes Architecture{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+#about-us-area .inner-about .child-about .sub-about .progress-bar .bar .Digital-marketer{
+	width:70%;
+	animation: Digital-marketer 3s;
+}
+@keyframes Digital-marketer{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:70%;
+	}
+}
+#about-us-area .inner-about .child-about .sub-about .progress-bar .bar .Web-Designer{
+	width:60%;
+	animation: Web-Designer 3s;
+}
+@keyframes Web-Designer{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:60%;
+	}
+}
+
+/*===============================
+		End About Us Part
+===============================*/
+
+
+
+/*===============================
+		Start Work Part
+===============================*/
+
+#Work-area{
+	width:100%;
+	padding:0 0;
+}
+#Work-area .inner-Work{
+	overflow:hidden;
+	padding:0 2%;
+}
+#Work-area .inner-Work h2{
+	text-align:center;
+	font-size:30px;
+	font-weight:701;
+	position:relative;
+	padding:30px 0;
+	color:#000;
+}
+#Work-area .inner-Work h2::after{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: indigo;
+	bottom: 15px;
+	left: calc(50% - 25px);
+}
+#Work-area .inner-Work ul{
+	text-align:center;
+}
+#Work-area .inner-Work ul li{
+	display:inline-block;
+	padding:5px 1%;
+}
+#Work-area .inner-Work ul li a{
+	color:#333;
+	font-weight:bold;
+}
+#Work-area .inner-Work ul li a:hover{
+	text-decoration:underline;
+	color:indigo;
+}
+#Work-area .inner-Work ul li.active a{
+	text-decoration:underline;
+	color:indigo;
+}
+#Work-area .inner-Work .sub-work{
+	overflow:hidden;
+	margin-bottom:20px;
+}
+#Work-area .inner-Work .child-work img{
+	height:225px;
+	width:225px;
+	cursor:pointer;
+}
+#Work-area .inner-Work .child-work{
+	max-width:225px;
+	width:23.4375%;
+	margin-right:2.083333333333333%;
+	float:left;
+	margin-bottom:20px;
+}
+#Work-area .inner-Work .no-margin{
+	margin-right:0;
+}
+
+/*===============================
+		End Work Part
+===============================*/
+
+
+
+
+/*===============================
+		Start Testimonial Part
+===============================*/
+
+#testimonial-area{
+	width:100%;
+	padding:0 0 40px;
+}
+#testimonial-area .inner-testimonial{
+	overflow:hidden;
+}
+#testimonial-area .inner-testimonial h2{
+	text-align:center;
+	font-size:30px;
+	font-weight:701;
+	position:relative;
+	padding:30px 0;
+	color:#000;
+}
+#testimonial-area .inner-testimonial h2::after{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: indigo;
+	bottom: 15px;
+	left: calc(50% - 25px);
+}
+#testimonial-area .inner-testimonial .child-testimonial{
+	max-width:700px;
+	width:96%;
+	padding:40px 2%;
+	margin:0 auto;
+	background:#f6f8fa;
+	text-align:center;
+	border-radius:4px;
+}
+#testimonial-area .inner-testimonial .child-testimonial h3{
+	font-size:18px;
+	color:#000;
+}
+#testimonial-area .inner-testimonial .child-testimonial h4{
+	font-size:15px;
+	color:#aaa;
+	padding-bottom:10px;
+}
+#testimonial-area .inner-testimonial .child-testimonial p{
+	font-size:16px;
+	color:#333;
+	line-height:1.3em;
+}
+
+/*===============================
+		End Testimonial Part
+===============================*/
+
+
+
+
+/*===============================
+		Start Inquiry Part
+===============================*/
+
+#inquiry-area{
+	width:100%;
+	padding:40px 0;
+	background:#F6F8FA;
+}
+#inquiry-area .inner-inquiry{
+	overflow:hidden;
+	max-width:700px;
+	width:96%;
+	padding:25px 2%;
+	margin:0 auto;
+}
+#inquiry-area .inner-inquiry .child-inquiry{
+	max-width:350px;
+	width:50%;
+	float:left;
+}
+#inquiry-area .inner-inquiry .child-inquiry h2{
+	font-size:26px;
+	color:#000;
+	padding:0 0 10px;
+	font-weight: 701;
+}
+#inquiry-area .inner-inquiry .child-inquiry p{
+	font-size:16px;
+	color:#333;
+}
+#inquiry-area .inner-inquiry .child-inquiry:last-child{
+	text-align:right;
+	padding:20px 0;
+	
+}
+#inquiry-area .inner-inquiry .child-inquiry a{
+	padding:10px 25px;
+	background:indigo;
+	color:#fff;
+	border-radius:4px;
+	font-weight:bold;
+}
+#inquiry-area .inner-inquiry .child-inquiry a:hover{
+	text-decoration:underline;
+}
+/*===============================
+		End Inquiry Part
+===============================*/
+
+
+
+
+/*===============================
+		Start Blog Part
+===============================*/
+
+#blog-area{
+	width:100%;
+	padding:20px 0;
+}
+#blog-area .inner-blog{
+	overflow:hidden;
+}
+#blog-area .inner-blog h2{
+	text-align:center;
+	font-size:30px;
+	font-weight:701;
+	position:relative;
+	padding:30px 0;
+	color:#000;
+	margin-bottom: 20px;
+}
+#blog-area .inner-blog h2::after{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: indigo;
+	bottom: 15px;
+	left: calc(50% - 25px);
+}
+#blog-area .inner-blog .child-blog{
+	max-width:300px;
+	width:31.25%;
+	margin-right:3%;
+	float:left;
+}
+#blog-area .inner-blog .child-blog:last-child{
+	margin-right:0;
+}
+#blog-area .inner-blog .child-blog img{
+	height:300px;
+	width:100%;
+	cursor:pointer;
+}
+#blog-area .inner-blog .child-blog h3{
+	padding:10px 0;
+}
+#blog-area .inner-blog .child-blog a{
+	font-size:14px;
+	font-weight:bold;
+	color:#999;
+}
+#blog-area .inner-blog .child-blog a:hover{
+	color:#333;
+	text-decoration:underline;
+}
+
+/*===============================
+		End Blog Part
+===============================*/
+
+
+
+
+/*===============================
+		Start Create Part
+===============================*/
+
+#create-area{
+	width:100%;
+	padding:20px 0;
+}
+#create-area .inner-create .child-Create{
+	max-width:800px;
+	width:96%;
+	padding:20px 2%;
+	overflow:hidden;
+	box-shadow:0 0 20px #ddd;
+	margin:0 auto;
+	border-radius:15px;
+	background:#fff;
+}
+#create-area .inner-create .child-Create .sub-Create{
+	max-width:340px;
+	width:42.5%;
+	margin-right:5%;
+	float:left;
+	padding:20px 2.5%;
+}
+#create-area .inner-create .child-Create .sub-Create:last-child{
+	margin-right:0;
+}
+#create-area .inner-create .child-Create .sub-Create:first-child h2{
+	font-size:35px;
+	color:#000;
+	font-weight:701;
+	padding:10px 0 20px;
+}
+#create-area .inner-create .child-Create .sub-Create:first-child p{
+	font-size:14px;
+	color:#aaa;
+	padding:20px 0 0;
+	border-bottom:1px solid #333;
+}
+#create-area .inner-create .child-Create .sub-Create:first-child .margin{
+	margin-bottom:40px;
+}
+#create-area .inner-create .child-Create .sub-Create:first-child a{
+	padding:10px 25px;
+	color:#fff;
+	font-weight:bold;
+	background:indigo;
+	border-radius:4px;
+	box-shadow:14px 18px 25px #ddd;
+}
+#create-area .inner-create .child-Create .sub-Create:first-child a:hover{
+	text-decoration:underline;
+}
+#create-area .inner-create .child-Create .sub-Create:last-child h3{
+	font-size:20px;
+	color:#000;
+	font-weight:bold;
+	padding:20px 0;
+	position:relative;
+	margin-bottom:30px;
+}
+#create-area .inner-create .child-Create .sub-Create:last-child h3::after{
+	content: '';
+	position: absolute;
+	width: 80%;
+	height: 2px;
+	background: indigo;
+	bottom: 15px;
+	left: calc(15% - 25px);
+}
+#create-area .inner-create .child-Create .sub-Create:last-child .sub-left{
+	max-width:150px;
+	width:44.11%;
+	margin-right:11.76%;
+	float:left;
+}
+#create-area .inner-create .child-Create .sub-Create:last-child .sub-left:last-child{
+	margin-right:0;
+}
+#create-area .inner-create .child-Create .sub-Create:last-child h4{
+	padding:10px 0;
+}
+#create-area .inner-create .child-Create .sub-Create:last-child p{
+	font-size:14px;
+	color:#333;
+	padding-bottom:10px;
+}
+
+/*===============================
+		End Create Part
+===============================*/
+
+
+
+
+/*===============================
+		Start Top Footer Part
+===============================*/
+
+#top-footer-area{
+	width:100%;
+	padding:0 0;
+	background:#171717;
+	color:#fff;
+}
+#top-footer-area svg{
+	display:block;
+}
+#top-footer-area .inner-top{
+	overflow:hidden;
+	padding:40px 0 0;
+}
+#top-footer-area .inner-top .child-top{
+	max-width:600px;
+	width:96%;
+	padding:20px 2%;
+	margin:0 auto;
+}
+#top-footer-area .inner-top .child-top .sub-top{
+	max-width:186px;
+	width:30%;
+	margin-right:5%;
+	float:left;
+}
+#top-footer-area .inner-top .child-top .sub-top:last-child{
+	margin-right:0;
+}
+#top-footer-area .inner-top .child-top .sub-top i{
+	float:left;
+	padding:10px;
+	background:#fff;
+	color:#000;
+	border-radius:50px;
+	margin: 10px 0;
+	cursor:pointer;
+}
+#top-footer-area .inner-top .child-top .sub-top i:hover{
+	background:#4bd957;
+	color:#fff;
+}
+#top-footer-area .inner-top .child-top .sub-top i.fa-facebook-f{
+	float:left;
+	padding:10px 12px;
+	background:#4bd957;
+	color:#fff;
+	border-radius:50px;
+}
+#top-footer-area .inner-top .child-top .sub-top .sub-text{
+	margin-left:26%;
+}
+#top-footer-area .inner-top .child-top .sub-top .sub-text h3{
+	font-size:18px;
+	color:#fff;
+	padding:5px 0;
+}
+#top-footer-area .inner-top .child-top .sub-top .sub-text p{
+	font-size:14px;
+	color:#aaa;
+}
+/*===============================
+		End Top Footer Part
+===============================*/
+
+
+
+/*===============================
+		Start Bottom Footer Part
+===============================*/
+
+#bottom-footer-area{
+	width:100%;
+	padding:20px 0;
+}
+#bottom-footer-area .inner-bottom{
+	overflow:hidden;
+}
+#bottom-footer-area .inner-bottom{
+	text-align:center;
+}
+#bottom-footer-area .inner-bottom ul li{
+	display:inline-block;
+	padding:2%;
+}
+#bottom-footer-area .inner-bottom ul li a{
+	color:indigo;
+	font-weight:bold;
+}
+#bottom-footer-area .inner-bottom ul li a:hover{
+	text-decoration:underline;
+}
+#bottom-footer-area .inner-bottom h2{
+	text-align:center;	
+}
+#bottom-footer-area .inner-bottom strong{
+	font-family: 'Great Vibes', cursive;
+	text-align:center;	
+}
+/*===============================
+		End Bottom Footer Part
+===============================*/

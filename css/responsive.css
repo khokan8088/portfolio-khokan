@@ -1,0 +1,144 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+	#banner-area .inner-banner .child-banner:first-child {
+		padding: 39px 0;
+	}
+	#about-us-area .inner-about .child-about h3 {
+		padding: 0px 0 9px;
+	}
+	#create-area .inner-create .child-Create .sub-Create:first-child h2 {
+		font-size: 24px;
+	}
+	#create-area .inner-create .child-Create .sub-Create:last-child h3 {
+		font-size: 14px;
+	}
+	#blog-area .inner-blog .child-blog h3 {
+		font-size: 16px;
+	}
+
+}
+
+
+
+/*		Tablet Layout: 667px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (min-width: 200px) and (max-width: 630px) {
+	#banner-area .inner-banner .child-banner h2 {
+		font-size: 32px;
+	}
+	#blog-area .inner-blog .child-blog h3 {
+		font-size: 13px;
+	}
+	.mean-container a.meanmenu-reveal span {
+		background: #2d2828;
+	}
+	#header-area .inner-header .logo {
+		padding: 5px 0;
+	}
+	
+	
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+	#banner-area .inner-banner .child-banner {
+		max-width: none;
+		width: 100%;
+		float: none;
+	}
+	#hero-area .inner-hero .child-hero {
+		max-width: none;
+		width: 96%;
+		padding: 20px 2%;
+		margin-right: 0;
+		float: none;
+		margin-bottom: 20px;
+	}
+	#about-us-area .inner-about {
+		padding: 0px 2%;
+	}
+	#about-us-area .inner-about .child-about {
+		max-width: none;
+		width: 100%;
+		margin-right: 0;
+		float: none;
+		margin-bottom:20px;
+	}
+	#Work-area .inner-Work .child-work {
+		max-width: none;
+		width: 100%;
+		margin-right: 0;
+		float: none;
+	}
+	#Work-area .inner-Work .child-work img {
+		width: 100%;
+		height: auto;
+	}
+	#Work-area .inner-Work ul li a {
+		color: #333;
+		font-weight: bold;
+		font-size: 13px;
+	}
+	#inquiry-area .inner-inquiry .child-inquiry {
+		max-width: none;
+		width: 100%;
+		float: none;
+		margin-bottom:20px;
+	}
+	#inquiry-area .inner-inquiry .child-inquiry:last-child {
+		text-align: center;
+	}
+	#inquiry-area .inner-inquiry {
+		text-align: center;
+	}
+	#blog-area .inner-blog .child-blog {
+		max-width: none;
+		width: 100%;
+		margin-right: 0;
+		float: none;
+		margin-bottom:10px;
+	}
+	#create-area .inner-create .child-Create .sub-Create {
+		max-width: none;
+		width: 95%;
+		margin-right: 0;
+		float: none;
+		padding: 20px 2.5%;
+	}
+	#top-footer-area .inner-top .child-top .sub-top {
+		max-width: none;
+		width: 100%;
+		margin-right: 0;
+		float: none;
+		overflow: hidden;
+		text-align: center;
+	}
+	#top-footer-area .inner-top .child-top .sub-top {
+		margin-bottom: 10px;
+	}
+	ul {
+		list-style: none;
+		margin-bottom: 20px;
+	}
+}
